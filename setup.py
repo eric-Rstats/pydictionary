@@ -9,5 +9,5 @@ setup(
     license='MIT License',
     author='Christopher Lee',
     author_email='',
-    description='Chinese word dictionary.'
+    description='Chinese dictionary.'
 )
