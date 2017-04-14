@@ -33,7 +33,7 @@ class NullStorage(object):
 
 class SQLiteStorage(object):
     def __init__(self, database):
-        self._connection = sqlite3.connect(database)
+        self._connection = sqlite3.connect(database, check_same_thread=False)
         self._connection.row_factory = dict_factory
 
     def __del__(self):
