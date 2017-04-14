@@ -60,3 +60,6 @@ bd_dic.query('受宠若惊', proxy='socks5://user:password@host:port')
  'url': 'http://hanyu.baidu.com/s?wd=%E9%BA%BB%E6%9C%A8%E4%B8%8D%E4%BB%81',
  'word': '麻木不仁'}
 ```
+
+# 示例截图
+![words.png](http://blog.chriscabin.com/wp-content/uploads/2017/04/words.png)
